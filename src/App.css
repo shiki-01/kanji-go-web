@@ -11,14 +11,9 @@
 /* ヘッダースタイル（白背景に合うグラデーション文字） */
 h1 {
   font-size: 2.6rem;
-  font-weight: 900;
+  font-weight: bold;
   margin-bottom: 1.6rem;
-  animation: fadeInDown 0.8s ease-out;
-  /* グラデーションの文字色 */
-  background: linear-gradient(90deg, #4756e6 0%, #764ba2 60%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: rgb(68, 68, 68);
   display: inline-block;
   padding: 0.25rem 0.5rem;
   letter-spacing: -0.02em;

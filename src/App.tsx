@@ -359,9 +359,9 @@ function App() {
           <button
             key={level}
             onClick={() => setSelectedLevel(level)}
-            className={`level-button ${selectedLevel === level ? 'active' : ''}`}
+            className={`b:2px|solid|#383838 px:16px py:10px r:8px cursor:pointer shadow:0|0|10px|#f0f0f0 ${selectedLevel === level ? 'active' : ''}`}
           >
-            レベル{level}
+            レベル {level}
           </button>
         ))}
       </div>

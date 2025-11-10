@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
 :root {
-  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans JP', 'Inter', 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.6;
   font-weight: 400;
 
@@ -41,28 +43,6 @@ h1 {
   line-height: 1.1;
   font-weight: 800;
   letter-spacing: -0.02em;
-}
-
-button {
-  border-radius: 10px;
-  border: 1px solid #eef0f6;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 600;
-  font-family: inherit;
-  background-color: #fff; /* 明るいボタン */
-  color: #222;
-  cursor: pointer;
-  transition: all 0.18s ease;
-  box-shadow: 0 6px 16px rgba(30,30,60,0.06);
-}
-button:hover {
-  transform: translateY(-2px);
-  border-color: #dfe6ff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
 }
 
 * {
