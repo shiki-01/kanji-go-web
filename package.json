@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@master/css": "^2.0.0-rc.69",
+    "@master/css.vite": "^2.0.0-rc.69",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
