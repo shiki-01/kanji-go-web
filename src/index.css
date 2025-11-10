@@ -14,6 +14,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  height: auto;
+}
+
 a {
   font-weight: 500;
   color: #4756e6;
@@ -30,16 +34,6 @@ body {
   min-width: 320px;
   min-height: 100vh;
   position: relative;
-  overflow-x: hidden;
-  /* 柔らかいグラデーションのアクセントを淡く入れる */
-  background-image: radial-gradient(1000px 400px at 10% 10%, rgba(102,126,234,0.04), transparent),
-                    radial-gradient(800px 300px at 90% 90%, rgba(118,75,162,0.04), transparent);
-}
-
-#root {
-  position: relative;
-  z-index: 1;
-  width: 100%;
 }
 
 h1 {

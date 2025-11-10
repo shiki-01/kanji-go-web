@@ -3,6 +3,9 @@
   margin: 0 auto;
   padding: 2.25rem;
   text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 /* ヘッダースタイル（白背景に合うグラデーション文字） */

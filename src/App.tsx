@@ -427,7 +427,7 @@ function App() {
         }
         
         return (
-        <div>
+        <div className='h:100%'>
           <div className="list-header">
             <p>レベル{selectedLevel}: {filteredItems.length}問 {selectedGenre !== 'all' && `(${selectedGenre})`}</p>
             
